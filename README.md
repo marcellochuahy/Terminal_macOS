@@ -91,19 +91,13 @@ git add *                                                  Adciona todos os arqu
 git add .                                                  Adciona todos os arquivos modificados da pasta atual na Stage Area (INDEX)
 ```
 
-Apagar arquivos
----------------
-```
-git rm algum_arquivo.html
-```
-
 Comitar arquivos (Stage Area -> HEAD)
 --------------
 ```
 git commit -m "Descrição da alteração"    Salva as alterações nos arquivos e os envia para a HEAD
 ```
 
-Sincronizar
+Sincronizar seus arquivos com o repositório remoto (HEAD -> GitHub)
 -----------
 ```
 git push -u origin master    "Empurra" os arquivos da HEAD para o repositório remoto no GitHub
@@ -115,7 +109,11 @@ Atualizar seu repositório local com as alterações salvas no GitHub
 git pull    "Puxa" os arquivos do repositório remoto no GitHub para o Working Directory na sua máquina 
 ```
 
-
+Apagar arquivos
+---------------
+```
+git rm algum_arquivo.html
+```
 
 
 
