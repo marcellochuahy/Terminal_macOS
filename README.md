@@ -4,12 +4,15 @@ Principais comandos do Terminal (MacOX)
 
 Navegar
 -------
-cd /	                                 Diretório raiz (root)
-cd ~	                                 Diretório Home
+
+```
+cd /	                                   Diretório raiz (root)
+cd ~	                                   Diretório Home
 cd alguma_pasta                          Entra no diretório "~/alguma_pasta"
 cd alguma_pasta/alguma_subpasta          Entra no diretório "~/alguma_pasta/alguma_subpasta"
 cd	                                     Diretório atual
 pwd	                                     Exibe o caminho completo no diretório de trabalho
+```
 
 Listar
 ------
