@@ -73,6 +73,7 @@ Criar uma conexão entre sua máquina e o GitHub
 ----------------------------------------------
 ```
 git remote add origin https://github.com/usuario/nome_do_repositorio.git
+git remote -v    Testa a conexão
 ```
 
 Criar e Clonar
@@ -115,6 +116,20 @@ Apagar arquivos
 git rm algum_arquivo.html
 ```
 
+Branches
+--------
+```
+git checkout -b nome_da_ramificacao            Cria uma ramificação e entra nela
+git checkout master                            Entra na ramificação master
+git checkout -d ramificacao_que_sera_deletada  Deleta a ramificação ramificacao_que_sera_deletada
+git push origin nome_da_ramificacao            "Empurra" os arquivos da HEAD do branche local para a o branche nome_da_ramificacao no repositório remoto no GitHub
+```
+
+Merges
+------
+```
+git merge nome_da_ramificacao_que_sera_importada    Mescla o branche nome_da_ramificacao_que_sera_importada com o branche onde vc está
+```
 
 
 
