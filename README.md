@@ -110,19 +110,14 @@ Atualizar seu repositório local com as alterações salvas no GitHub
 git pull    "Puxa" os arquivos do repositório remoto no GitHub para o Working Directory na sua máquina 
 ```
 
-Apagar arquivos
----------------
-```
-git rm algum_arquivo.html
-```
-
 Branches
 --------
 ```
-git checkout -b nome_da_ramificacao            Cria uma ramificação e entra nela
-git checkout master                            Entra na ramificação master
-git checkout -d ramificacao_que_sera_deletada  Deleta a ramificação ramificacao_que_sera_deletada
-git push origin nome_da_ramificacao            "Empurra" os arquivos da HEAD do branche local para a o branche nome_da_ramificacao no repositório remoto no GitHub
+git checkout -b nome_da_ramificacao                  Cria uma ramificação e entra nela
+git checkout master                                  Entra na ramificação master
+git checkout -d ramificacao_que_sera_deletada        Deleta a ramificação ramificacao_que_sera_deletada
+git push origin nome_da_ramificacao                  "Empurra" os arquivos da HEAD do branche local para a o branche nome_da_ramificacao no repositório remoto no GitHub
+git diff nome_da_ramificacao_A nome_da_ramificacao_B Visualiza as diferenças entre 2 branches
 ```
 
 Merges
@@ -131,6 +126,19 @@ Merges
 git merge nome_da_ramificacao_que_sera_importada    Mescla o branche nome_da_ramificacao_que_sera_importada com o branche onde vc está
 ```
 
+Tags
+----
+```
+git tag nome_da_tag commit_id    Cria uma tag
+git log                          Exibe os IDs dos commits
+```
+
+Apagar ou recuperar arquivos
+----------------------------
+```
+git rm algum_arquivo.html              Apaga o arquivo
+git checkout -- arquivo_com_erros_html Substitui a versão atual do arquivo na Working Directory pela última versão salava no HEAD
+```
 
 
 Atalhos de teclado
