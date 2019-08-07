@@ -72,13 +72,15 @@ Principais comandos para Git
 Instalação
 ---------------------------------------------- 
 
-MacOS:
+Copie e cole o link em seu navegador.  
+
+MacOS:  
 http://git-scm.com/download/mac  
 
-Windows:
+Windows:  
 http://msysgit.github.io/  
 
-Linux:
+Linux:  
 http://book.git-scm.com/2_installing_git.html  
 
 Criar uma conexão entre sua máquina e o GitHub
