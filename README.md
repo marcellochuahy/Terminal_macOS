@@ -69,7 +69,7 @@ exit                                     Sair do Terminal
 Comandos para Git
 -----------------
 
-Acesse [Tutorial_Git_GitHub](https://github.com/marcellochuahy/Tutorial_Git_GitHub)  
+Acesse: [marcellochuahy/Tutorial_Git_GitHub](https://github.com/marcellochuahy/Tutorial_Git_GitHub)  
 
 
 Atalhos de teclado
