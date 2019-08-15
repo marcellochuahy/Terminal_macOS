@@ -11,6 +11,7 @@ cd alguma_pasta                          Entra no diretório "~/alguma_pasta"
 cd alguma_pasta/alguma_subpasta          Entra no diretório "~/alguma_pasta/alguma_subpasta"
 cd -                                     Um diretório acima (diretório pai)
 pwd                                      Exibe o caminho completo no diretório de trabalho
+find . -name algum_arquiv*               Procura na pasta atual (.) por um arquivo com o nome algum_arquiv...
 ```
 
 Listar
@@ -24,6 +25,7 @@ Criar
 -----
 ```
 mkdir nova_pasta                         Cria uma nova pasta chamada "nova_pasta" dentro da pasta pai onde você está
+mkdir nova_pasta1 nova_pasta2            Cria várias pastas "nova_pasta1, nova_pasta2, etc" dentro da pasta pai onde você está
 mkdir nova_pasta/sub_pasta               Cria uma nova pasta chamada "nova_pasta" dentro da pasta pai onde você está, e então cria uma pasta "sub_pasta" dentro de si.
 touch novo_arquivo.html                  Cria um novo arquivo com o nome novo_arquivo.html dentro da pasta onde você está
 ```
