@@ -6,11 +6,9 @@ Navegar
 -------
 
 ```
-cd /                                     Diretório raiz (root)
-cd ~                                     Diretório Home
+cd                                       Diretório Home
 cd alguma_pasta                          Entra no diretório "~/alguma_pasta"
 cd alguma_pasta/alguma_subpasta          Entra no diretório "~/alguma_pasta/alguma_subpasta"
-cd                                       Diretório atual
 cd -                                     Um diretório acima (diretório pai)
 pwd                                      Exibe o caminho completo no diretório de trabalho
 ```
