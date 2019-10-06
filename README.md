@@ -19,6 +19,7 @@ Listar
 ```
 ls                                       Lista os arquivos da pasta em que você está
 ls -l                                    Lista os arquivos da pasta em que você está no formato lista
+ls -a                                    Lista todos os arquivos da pasta (incluindo os invisíveis)
 ```
 
 Criar
