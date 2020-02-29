@@ -66,6 +66,8 @@ chmod                                    Muda as permissões de um arquivo
 caffeinate                               Impede que o Mac entre em modo de hibernação
 locate arquivo_fujao.html                Localiza um arquivo
 clear                                    Limpa o Terminal
+[⌘ command] + [k]                        Limpa o Terminal
+[⌥ option]                               Posicionar o cursor (mouse)
 exit                                     Sair do Terminal
 ```
 
