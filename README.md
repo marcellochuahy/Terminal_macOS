@@ -10,6 +10,7 @@ cd                                       Diretório Home
 cd alguma_pasta                          Entra no diretório "~/alguma_pasta"
 cd alguma_pasta/alguma_subpasta          Entra no diretório "~/alguma_pasta/alguma_subpasta"
 cd -                                     Um diretório acima (diretório pai)
+cd ..                                    Um diretório acima (diretório pai)
 pwd                                      Exibe o caminho completo no diretório de trabalho
 find . -name algum_arquiv*               Procura na pasta atual (.) por um arquivo com o nome algum_arquiv...
 ```
